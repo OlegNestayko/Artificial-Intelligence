@@ -1,1 +1,87 @@
+:root {
+  /* Font */
 
+  --main-font: 'catamaran', sans-serif;
+  --main-weight: 600;
+  --secondary-weight: 400;
+  --main-text-size: 16px;
+
+  /* Colors */
+
+  --main-light-color: #fff;
+  --accent-color: #3a68b8;
+  --first-bg-color: #020a18;
+  --secondary-bg-color: #0c1420;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: var(--main-text-size);
+  font-style: normal;
+  line-height: 1.6;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Common styles */
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3;
+
+  color: var(--main-light-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+
+  color: currentColor;
+}
+
+.btn {
+  padding: 15px 30px;
+
+  font: inherit;
+
+  color: var(--main-light-color);
+  background-color: var(--accent-color);
+
+  border: none;
+  border-radius: 5px;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--first-bg-color);
+}
+
+.logo {
+  font-size: 22px;
+  line-height: 1.4;
+
+  color: var(--accent-color);
+}
+
+.llogo-img {
+}
+.nav {
+}
+.nav-list {
+  display: flex;
+}
+
+.nav-items {
+}
+.nav-link {
+}
+.header-btn {
+}
